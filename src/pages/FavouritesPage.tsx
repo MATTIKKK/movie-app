@@ -38,12 +38,12 @@ export const FavoritesPage = observer(() => {
                   <Typography variant="subtitle1" color="textSecondary">
                     {movie.Year}
                   </Typography>
-                  <Button
+                  {/* <Button
                     variant="outlined"
                     onClick={() => removeFromFavorites(movie.imdbID)}
                   >
                     Удалить
-                  </Button>
+                  </Button> */}
                 </CardContent>
               </Card>
             </Grid>
