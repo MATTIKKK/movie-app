@@ -57,7 +57,7 @@ export const MovieDetails: React.FC<MovieDetailsProps> = observer(
           <CardMedia
             component="img"
             sx={{ width: 300, mb: 2 }}
-            image={movie.Poster !== 'N/A' ? movie.Poster : '/no-image.jpg'}
+            image={movie.Poster !== 'N/A' ? movie.Poster : ''}
             alt={movie.Title}
           />
           <CardContent>

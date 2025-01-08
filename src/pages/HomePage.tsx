@@ -22,7 +22,7 @@ export const HomePage = observer(() => {
 
       {movieStore.errorMessage && (
         <Typography color="error" sx={{ mt: 2 }}>
-          Фильм не найден!
+          {movieStore.errorMessage}
         </Typography>
       )}
 

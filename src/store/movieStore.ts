@@ -76,7 +76,7 @@ class MovieStore {
         });
       } else {
         runInAction(() => {
-          this.errorMessage = response.data.Error || 'Unknown error';
+          this.errorMessage = 'Фильм не найден';
         });
       }
     } catch (error: any) {
